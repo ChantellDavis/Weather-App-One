@@ -26,7 +26,7 @@ body {
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
+    padding: 3px 25px;
     height: 60px;
     border-radius: 30px;
     flex: 1;
@@ -48,7 +48,7 @@ body {
      width: 16px;
 }
 
-.weather-icon {
+.weatherIcon {
     width: 170px;
     margin-top: 30px;
 }
@@ -56,12 +56,14 @@ body {
 .weather h1 {
 font-size: 80px;
 font-weight: 500;
+margin-top: 10px;
+margin-bottom: 0;
 }
 
-.weather h2 {
+.city {
 font-size: 45px;
 font-weight: 400;
-margin-top: -10px;
+margin: 5px;
 }
 
 .details{
@@ -85,5 +87,11 @@ margin-top: -10px;
 
 .humidity, .wind {
 font-size: 28px;
-margin-top: 20px ;
+margin-top: 0px;
+margin-bottom: 0;
+}
+
+.humidityDetails, .windDetails {
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
